@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="form">
+            <div class="logo">
+                <img src="/img/logo laranja.png" alt="logo radix">
+            </div>
+            <div class="form-header">
+                <div class="title">
+                    <h1>Inscreva-se</h1>
+                </div>
+            </div>
+        <form action="" name="contact" method="POST" netlify>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="name">Nome</label>
+                    <input id="name" type="text" name="name" placeholder="Digite seu Nome" required> 
+                </div>
+                <div class="input-box">
+                    <label for="igreja">Qual sua igreja</label>
+                    <input id="igreja" type="text" name="igreja" placeholder="Digite o nome da sua igreja" required> 
+                </div>
+                <div class="input-box">
+                    <label for="produto">O que será vendido</label>
+                    <input id="produto" type="text" name="produto" placeholder="digite o alimento/produto que será vendido" required> 
+                </div>
+                <div class="input-box">
+                    <label for="Whatsapp">Whatsapp</label>
+                    <input id="Whatsapp" type="tel" name="Whatsapp" placeholder="(xx) x xxxx-xxxx" required> 
+                </div>
+                <div class="input-box">
+                    <label for="number">Segundo contato</label>
+                    <input id="number" type="tel" name="number" placeholder="(xx) x xxxx-xxxx" required> 
+                </div>
+            </div>    
+            <div class="cargo-input">
+                <div class="cargo-title">
+                    <h6>Cargo Eclesiástico</h6>
+                </div>
+                <div class="cargo-group">
+                    <div class="cargo-select">
+                        <input type="radio" id="pastor" name="cargo">
+                        <label for="pastor">Pastor</label>
+                    </div>
+                    <div class="cargo-select">
+                        <input type="radio" id="presibitero" name="cargo">
+                        <label for="presibitero">Presbítero</label>
+                    </div>
+                    <div class="cargo-select">
+                        <input type="radio" id="diacono" name="cargo">
+                        <label for="diacono">Diácono</label>
+                    </div>
+                    <div class="cargo-select">
+                        <input type="radio" id="membro" name="cargo">
+                        <label for="membro">Membro</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+            <div class="login-buttom">
+                <button><a href="#">Concluir</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
